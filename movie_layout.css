@@ -1,0 +1,31 @@
+/*
+	CIS 155 Web Development
+	Final Project
+	Group 2
+
+	Movie Buff Layout Styles 
+	Author: Patrick Mertens
+	Date: 	8/21/2015
+
+	Filename: 		movie_layout.css
+	Supporting files: backdrop.png
+
+	*/
+
+	/*  Layout Styles */
+
+
+/*
+
+*/
+
+html {
+	background: rgb(0, 0, 0) url(backdrop.png) no-repeat center center fixed;
+
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+
+}

@@ -23,12 +23,12 @@ html {
 	height: 100%;
 	width: 100%;
 
-	background: rgb(0, 0, 0) url(backdrop.png) repeat-x;
+	background: rgb(0, 0, 0) url(backdrop.png) repeat-x center;
 
-	-webkit-background-size: 300px;
-	-moz-background-size: 300px;
-	-o-background-size: 300px;
-	background-size: 300px;
-
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	
 }
 

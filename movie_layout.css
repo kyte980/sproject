@@ -23,7 +23,11 @@ html {
 	height: 100%;
 	width: 100%;
 
+	min-height: 100%;
+	min-width: 100%;
+
 	background: rgb(0, 0, 0) url(backdrop.png) repeat-x center;
+	position: relative;
 
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
@@ -32,3 +36,44 @@ html {
 	
 }
 
+body {
+	color: white;
+}
+
+header img {
+	height: 160px;
+	float: left;
+	margin-top: 45px;
+	margin-right: 80px;
+	
+}
+
+header hgroup {
+	padding-top: 25px;
+	float: left;
+}
+
+hgroup h1 {
+	font-size: 350%;
+	color: rgb(155, 155, 155);
+}
+
+hgroup h2 {
+	color: darkred;
+}
+
+body nav {
+	clear: left;
+	float: left;
+
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul img {
+	height: 7em;
+	width: 5em;
+}

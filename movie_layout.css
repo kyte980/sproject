@@ -49,7 +49,7 @@ header img {
 }
 
 header hgroup {
-	padding-top: 25px;
+	padding-top: 20px;
 	float: left;
 }
 
@@ -76,4 +76,9 @@ nav ul {
 nav ul img {
 	height: 7em;
 	width: 5em;
+}
+
+nav li figcaption {
+	font-style: bold;
+	font-size: 120%
 }
